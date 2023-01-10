@@ -5,7 +5,6 @@ This script automatically installs and configures OpenVPN on UDP port 1194, then
 
 Requirements:
 - Free AWS trial account
-- about 2 minutes (to create an instance)))
 
 Steps:
 - First you have to create you instance ( I used ec2 ubuntu-22.04 )
