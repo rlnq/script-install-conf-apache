@@ -16,3 +16,5 @@ Steps:
 
 Wait a few minutes and download the client file at: *http://*your_public_ip*/config*
 
+Download *OpenVPN Connect* from [official website](https://openvpn.net/) and import your client file
+
