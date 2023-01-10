@@ -1,11 +1,11 @@
-# Script to install and configure OpenVPN and Apache web-server
+# Script to install and configure OpenVPN and Apache web server
 
-This script automatically install and configure OpenVPN on protocol UDP port 1194 and then install and reconfigure Apache web-server to give a opportunity to download client file without going to the server
+This script automatically installs and configures OpenVPN on UDP port 1194, then installs and reconfigures the Apache web server to allow client file uploads without going to the server
 
 
 Requirements:
-- AWS free trial account 
-- to have approximately 2 minutes ( to create instance )))
+- Free AWS trial account
+- about 2 minutes (to create an instance)))
 
 Steps:
 - First you have to create you instance ( I used ec2 ubuntu-22.04 )
@@ -15,5 +15,5 @@ Steps:
     - allow ssh traffic: TCP - 22 (optional) 
 - Insert [script-openvpn-apache.sh](https://github.com/rlnq/tstopvnp/blob/main/script-openvpn-apache.sh) in user data
 
-Pls qait a couple of minutes and download you file configuration 
+Wait a few minutes and download the client file at: *http://*your_public_ip*/config*
 
