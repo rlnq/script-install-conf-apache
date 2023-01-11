@@ -7,7 +7,7 @@ get_public_ip=$(grep -m 1 -oE '^[0-9]{1,3}(\.[0-9]{1,3}){3}$' <<< "$(wget -T 10 
 
 cd /home/ubuntu
 
-sudo wget https://raw.githubusercontent.com/rlnq/tstopvnp/main/openvpn-install.sh -O openvpn-install.sh
+sudo wget https://raw.githubusercontent.com/rlnq/script-install-conf-apache/main/openvpn-install.sh -O openvpn-install.sh
 sudo bash openvpn-install.sh
 
 sudo mv /root/client.ovpn /home/ubuntu
